@@ -1,0 +1,17 @@
+{
+  "BotName": "ASFBot",
+  "Prefix": "!",
+  "Token": "YOUR_BOT_TOKEN",
+  "2faApi": "http://YOUR_IP:PORT/api/bot/{}/twoFactorAuthentication/token",
+  "asfApi": "http://YOUR_IP:PORT/api/command",
+  "allowedAccounts": {
+    "DISCORD_USER_ID": "All",
+    "DISCORD_USER_ID": ["Acc1", "Acc2"]
+  },
+  "_commentAllowedAccounts": [
+    "DISCORD_USER_ALIAS",
+    "DISCORD_USER_ALIAS"
+  ],
+  "allowedChannels": ["DISCORD_CHANNEL_ID"],
+  "_commentAllowedChannels": ["DISCORD_CHANNEL_ALIAS"]
+}
